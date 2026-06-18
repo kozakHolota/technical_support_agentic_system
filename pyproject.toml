@@ -1,0 +1,13 @@
+[project]
+name = "technical-support-agentic-system"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "typing_extensions",
+    "langchain_openai",
+    "langchain_community",
+    "langgraph",
+    "pypdf",
+    "faiss-cpu",
+    "ipykernel>=7.3.0",
+]
